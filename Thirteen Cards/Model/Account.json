@@ -1,0 +1,134 @@
+[
+    {
+        "name" : "Hoàng",
+        "id" : 1,
+        "sex": "male",
+        "ID" : "s3914298",
+        "coin" : 500,
+        "win" : 0,
+        "lose" : 0,
+        "highestCoin" : 500,
+        "trophy" : []
+    },
+    {
+        "name" : "John",
+        "id" : 2,
+        "sex": "male",
+        "ID" : "s1234567",
+        "coin" : 1150,
+        "win" : 53,
+        "lose" : 120,
+        "highestCoin" : 3500,
+        "trophy" : ["Patience", "Third"]
+    },
+    {
+        "name" : "Dorothy",
+        "id" : 3,
+        "sex": "female",
+        "ID" : "s1234567",
+        "coin" : 2000,
+        "win" : 116,
+        "lose" : 98,
+        "highestCoin" : 2200,
+        "trophy" : ["Rich", "Proficiency"]
+    },
+    {
+        "name" : "Lily",
+        "id" : 4,
+        "sex": "female",
+        "ID" : "s1234567",
+        "coin" : 2050,
+        "win" : 50,
+        "lose" : 40,
+        "highestCoin" : 2200,
+        "trophy" : ["Rich"]
+    },
+    {
+        "name" : "あかね",
+        "id" : 5,
+        "sex": "female",
+        "ID" : "s1234567",
+        "coin" : 3500,
+        "win" : 200,
+        "lose" : 169,
+        "highestCoin" : 5500,
+        "trophy" : ["Rich", "Proficiency", "Master", "Patience", "First", "Third"]
+    },
+    {
+        "name" : "えりてぃ",
+        "id" : 6,
+        "sex": "female",
+        "ID" : "s1234567",
+        "coin" : 1300,
+        "win" : 105,
+        "lose" : 134,
+        "highestCoin" : 1500,
+        "trophy" : ["Proficiency", "Patience"]
+    },
+    {
+        "name" : "アイヤ",
+        "id" : 7,
+        "sex": "female",
+        "ID" : "s1234567",
+        "coin" : 700,
+        "win" : 99,
+        "lose" : 112,
+        "highestCoin" : 2000,
+        "trophy" : ["Patience", "Rich"]
+    },
+    {
+        "name" : "Jackson",
+        "id" : 8,
+        "sex": "male",
+        "ID" : "s1234567",
+        "coin" : 4000,
+        "win" : 230,
+        "lose" : 170,
+        "highestCoin" : 4000,
+        "trophy" : ["Rich", "Proficiency", "Master", "Patience", "Second"]
+    },
+    {
+        "name" : "Linh Nhi",
+        "id" : 9,
+        "sex": "female",
+        "ID" : "s1234567",
+        "coin" : 1200,
+        "win" : 79,
+        "lose" : 127,
+        "highestCoin" : 3000,
+        "trophy" : ["Rich", "Patience"]
+    },
+    {
+        "name" : "Đức Huy",
+        "id" : 10,
+        "sex": "male",
+        "ID" : "s1234567",
+        "coin" : 5000,
+        "win" : 350,
+        "lose" : 120,
+        "highestCoin" : 5050,
+        "trophy" : ["Rich", "Richest", "Proficiency", "Master", "Patience", "First", "Second"]
+    },
+    {
+        "name" : "Quỳnh Như",
+        "id" : 11,
+        "sex": "female",
+        "ID" : "s1234567",
+        "coin" : 1800,
+        "win" : 66,
+        "lose" : 44,
+        "highestCoin" : 1800,
+        "trophy" : []
+    },
+    {
+        "name" : "えみ",
+        "id" : 12,
+        "sex": "female",
+        "ID" : "s1234567",
+        "coin" : 2200,
+        "win" : 88,
+        "lose" : 73,
+        "highestCoin" : 2300,
+        "trophy" : ["Rich"]
+    }
+]

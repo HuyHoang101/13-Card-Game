@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B624EC5A2AA0570800AF71FA /* Divide_Card.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B624EC592AA0570800AF71FA /* Divide_Card.mp3 */; };
+		B69348742A9E3B8900BEFF17 /* PlaySound.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69348732A9E3B8900BEFF17 /* PlaySound.swift */; };
+		B69348752A9E477100BEFF17 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B69348772A9E477100BEFF17 /* Localizable.strings */; };
+		B6AB07EB2AA0AE7600C8EA52 /* gameover.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6AB07EA2AA0AE7600C8EA52 /* gameover.mp3 */; };
+		B6AB07ED2AA0AE7F00C8EA52 /* winning.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6AB07EC2AA0AE7F00C8EA52 /* winning.mp3 */; };
+		B6AB07EF2AA0B9E800C8EA52 /* RubikIso-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B6AB07EE2AA0B71B00C8EA52 /* RubikIso-Regular.ttf */; };
+		B6AB07F52AA0DCD100C8EA52 /* bet-chip.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6AB07F42AA0DCD000C8EA52 /* bet-chip.mp3 */; };
+		B6AB07F72AA1853F00C8EA52 /* bet_card.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6AB07F62AA1853F00C8EA52 /* bet_card.mp3 */; };
+		B6AB07F92AA187F000C8EA52 /* Here_Forever.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6AB07F82AA187EF00C8EA52 /* Here_Forever.mp3 */; };
+		B6AB07FB2AA1885400C8EA52 /* Robot_meme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B6AB07FA2AA1885400C8EA52 /* Robot_meme.mp3 */; };
+		B6AD8B532A9B80AD00C3D386 /* Thirteen_CardsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B522A9B80AD00C3D386 /* Thirteen_CardsApp.swift */; };
+		B6AD8B552A9B80AD00C3D386 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B542A9B80AD00C3D386 /* ContentView.swift */; };
+		B6AD8B572A9B80AF00C3D386 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AD8B562A9B80AF00C3D386 /* Assets.xcassets */; };
+		B6AD8B5A2A9B80AF00C3D386 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6AD8B592A9B80AF00C3D386 /* Preview Assets.xcassets */; };
+		B6AD8B652A9B843800C3D386 /* Cards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B642A9B843800C3D386 /* Cards.swift */; };
+		B6AD8B672A9B848B00C3D386 /* TienLenGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B662A9B848A00C3D386 /* TienLenGame.swift */; };
+		B6AD8B692A9B889B00C3D386 /* MemberPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B682A9B889B00C3D386 /* MemberPlayer.swift */; };
+		B6AD8B6B2A9B88F400C3D386 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B6A2A9B88F400C3D386 /* Modifier.swift */; };
+		B6AD8B712A9B970400C3D386 /* GameOver.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B702A9B970400C3D386 /* GameOver.swift */; };
+		B6AD8B732A9B989200C3D386 /* MyMonneyLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B722A9B989200C3D386 /* MyMonneyLabel.swift */; };
+		B6AD8B752A9B9A5100C3D386 /* BackgroundIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B742A9B9A5100C3D386 /* BackgroundIcon.swift */; };
+		B6AD8B772A9B9AAF00C3D386 /* BackgroundPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B762A9B9AAF00C3D386 /* BackgroundPage.swift */; };
+		B6AD8B792A9B9AFB00C3D386 /* CardPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B782A9B9AFB00C3D386 /* CardPlayerView.swift */; };
+		B6AD8B7B2A9B9C3300C3D386 /* ChampionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B7A2A9B9C3300C3D386 /* ChampionView.swift */; };
+		B6AD8B7D2A9B9C5800C3D386 /* HowToPlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B7C2A9B9C5800C3D386 /* HowToPlayView.swift */; };
+		B6AD8B7F2A9B9C7900C3D386 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B7E2A9B9C7900C3D386 /* SettingsView.swift */; };
+		B6AD8B812A9B9D9700C3D386 /* UserRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B802A9B9D9700C3D386 /* UserRow.swift */; };
+		B6AD8B832A9BA82F00C3D386 /* UserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6AD8B822A9BA82F00C3D386 /* UserDetails.swift */; };
+		B6D36F552A9C906F003D5B0E /* Account.json in Resources */ = {isa = PBXBuildFile; fileRef = B6D36F542A9C906F003D5B0E /* Account.json */; };
+		B6D36F572A9C90FF003D5B0E /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D36F562A9C90FF003D5B0E /* ModelData.swift */; };
+		B6D36F592A9C912E003D5B0E /* Accounts.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D36F582A9C912E003D5B0E /* Accounts.swift */; };
+		B6D36F5B2A9CA3D8003D5B0E /* ChampionSup.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D36F5A2A9CA3D7003D5B0E /* ChampionSup.swift */; };
+		B6D36F5D2A9CEAED003D5B0E /* Achievements.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D36F5C2A9CEAED003D5B0E /* Achievements.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B624EC592AA0570800AF71FA /* Divide_Card.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Divide_Card.mp3; sourceTree = "<group>"; };
+		B69348732A9E3B8900BEFF17 /* PlaySound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaySound.swift; sourceTree = "<group>"; };
+		B69348762A9E477100BEFF17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B69348782A9E477900BEFF17 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B69348792A9E477A00BEFF17 /* vi */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = vi; path = vi.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B6AB07EA2AA0AE7600C8EA52 /* gameover.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gameover.mp3; sourceTree = "<group>"; };
+		B6AB07EC2AA0AE7F00C8EA52 /* winning.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winning.mp3; sourceTree = "<group>"; };
+		B6AB07EE2AA0B71B00C8EA52 /* RubikIso-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "RubikIso-Regular.ttf"; sourceTree = "<group>"; };
+		B6AB07F32AA0BEEF00C8EA52 /* Thirteen-Cards-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Thirteen-Cards-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B6AB07F42AA0DCD000C8EA52 /* bet-chip.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "bet-chip.mp3"; sourceTree = "<group>"; };
+		B6AB07F62AA1853F00C8EA52 /* bet_card.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bet_card.mp3; sourceTree = "<group>"; };
+		B6AB07F82AA187EF00C8EA52 /* Here_Forever.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Here_Forever.mp3; sourceTree = "<group>"; };
+		B6AB07FA2AA1885400C8EA52 /* Robot_meme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Robot_meme.mp3; sourceTree = "<group>"; };
+		B6AD8B4F2A9B80AD00C3D386 /* Thirteen Cards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Thirteen Cards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6AD8B522A9B80AD00C3D386 /* Thirteen_CardsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thirteen_CardsApp.swift; sourceTree = "<group>"; };
+		B6AD8B542A9B80AD00C3D386 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B6AD8B562A9B80AF00C3D386 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B6AD8B592A9B80AF00C3D386 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B6AD8B642A9B843800C3D386 /* Cards.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cards.swift; sourceTree = "<group>"; wrapsLines = 0; };
+		B6AD8B662A9B848A00C3D386 /* TienLenGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TienLenGame.swift; sourceTree = "<group>"; };
+		B6AD8B682A9B889B00C3D386 /* MemberPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberPlayer.swift; sourceTree = "<group>"; };
+		B6AD8B6A2A9B88F400C3D386 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		B6AD8B702A9B970400C3D386 /* GameOver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOver.swift; sourceTree = "<group>"; };
+		B6AD8B722A9B989200C3D386 /* MyMonneyLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMonneyLabel.swift; sourceTree = "<group>"; };
+		B6AD8B742A9B9A5100C3D386 /* BackgroundIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundIcon.swift; sourceTree = "<group>"; };
+		B6AD8B762A9B9AAF00C3D386 /* BackgroundPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundPage.swift; sourceTree = "<group>"; };
+		B6AD8B782A9B9AFB00C3D386 /* CardPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardPlayerView.swift; sourceTree = "<group>"; };
+		B6AD8B7A2A9B9C3300C3D386 /* ChampionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionView.swift; sourceTree = "<group>"; };
+		B6AD8B7C2A9B9C5800C3D386 /* HowToPlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowToPlayView.swift; sourceTree = "<group>"; };
+		B6AD8B7E2A9B9C7900C3D386 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B6AD8B802A9B9D9700C3D386 /* UserRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRow.swift; sourceTree = "<group>"; };
+		B6AD8B822A9BA82F00C3D386 /* UserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDetails.swift; sourceTree = "<group>"; };
+		B6D36F542A9C906F003D5B0E /* Account.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Account.json; sourceTree = "<group>"; };
+		B6D36F562A9C90FF003D5B0E /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		B6D36F582A9C912E003D5B0E /* Accounts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Accounts.swift; sourceTree = "<group>"; };
+		B6D36F5A2A9CA3D7003D5B0E /* ChampionSup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChampionSup.swift; sourceTree = "<group>"; };
+		B6D36F5C2A9CEAED003D5B0E /* Achievements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievements.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B6AD8B4C2A9B80AD00C3D386 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B624EC582AA056EB00AF71FA /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				B6AB07F42AA0DCD000C8EA52 /* bet-chip.mp3 */,
+				B6AB07EA2AA0AE7600C8EA52 /* gameover.mp3 */,
+				B6AB07EC2AA0AE7F00C8EA52 /* winning.mp3 */,
+				B6AB07F82AA187EF00C8EA52 /* Here_Forever.mp3 */,
+				B6AB07FA2AA1885400C8EA52 /* Robot_meme.mp3 */,
+				B6AB07F62AA1853F00C8EA52 /* bet_card.mp3 */,
+				B624EC592AA0570800AF71FA /* Divide_Card.mp3 */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		B6AD8B462A9B80AD00C3D386 = {
+			isa = PBXGroup;
+			children = (
+				B6AD8B512A9B80AD00C3D386 /* Thirteen Cards */,
+				B6AD8B502A9B80AD00C3D386 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B6AD8B502A9B80AD00C3D386 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD8B4F2A9B80AD00C3D386 /* Thirteen Cards.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6AD8B512A9B80AD00C3D386 /* Thirteen Cards */ = {
+			isa = PBXGroup;
+			children = (
+				B6AB07F32AA0BEEF00C8EA52 /* Thirteen-Cards-Info.plist */,
+				B624EC582AA056EB00AF71FA /* Sound */,
+				B6AD8B632A9B80DF00C3D386 /* Source_Language */,
+				B6AD8B622A9B80D400C3D386 /* Support */,
+				B6AD8B602A9B80B500C3D386 /* View */,
+				B6AD8B612A9B80BC00C3D386 /* Model */,
+				B6AD8B562A9B80AF00C3D386 /* Assets.xcassets */,
+				B6AD8B582A9B80AF00C3D386 /* Preview Content */,
+			);
+			path = "Thirteen Cards";
+			sourceTree = "<group>";
+		};
+		B6AD8B582A9B80AF00C3D386 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD8B592A9B80AF00C3D386 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6AD8B602A9B80B500C3D386 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD8B522A9B80AD00C3D386 /* Thirteen_CardsApp.swift */,
+				B6AD8B542A9B80AD00C3D386 /* ContentView.swift */,
+				B6AD8B782A9B9AFB00C3D386 /* CardPlayerView.swift */,
+				B6AD8B7A2A9B9C3300C3D386 /* ChampionView.swift */,
+				B6AD8B7C2A9B9C5800C3D386 /* HowToPlayView.swift */,
+				B6AD8B7E2A9B9C7900C3D386 /* SettingsView.swift */,
+				B6AD8B822A9BA82F00C3D386 /* UserDetails.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B6AD8B612A9B80BC00C3D386 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B6D36F542A9C906F003D5B0E /* Account.json */,
+				B6AD8B642A9B843800C3D386 /* Cards.swift */,
+				B6AD8B662A9B848A00C3D386 /* TienLenGame.swift */,
+				B6D36F562A9C90FF003D5B0E /* ModelData.swift */,
+				B6D36F582A9C912E003D5B0E /* Accounts.swift */,
+				B69348732A9E3B8900BEFF17 /* PlaySound.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B6AD8B622A9B80D400C3D386 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				B6AD8B682A9B889B00C3D386 /* MemberPlayer.swift */,
+				B6AD8B6A2A9B88F400C3D386 /* Modifier.swift */,
+				B6AD8B702A9B970400C3D386 /* GameOver.swift */,
+				B6AD8B722A9B989200C3D386 /* MyMonneyLabel.swift */,
+				B6AD8B742A9B9A5100C3D386 /* BackgroundIcon.swift */,
+				B6AD8B762A9B9AAF00C3D386 /* BackgroundPage.swift */,
+				B6AD8B802A9B9D9700C3D386 /* UserRow.swift */,
+				B6D36F5A2A9CA3D7003D5B0E /* ChampionSup.swift */,
+				B6D36F5C2A9CEAED003D5B0E /* Achievements.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		B6AD8B632A9B80DF00C3D386 /* Source_Language */ = {
+			isa = PBXGroup;
+			children = (
+				B6AB07EE2AA0B71B00C8EA52 /* RubikIso-Regular.ttf */,
+				B69348772A9E477100BEFF17 /* Localizable.strings */,
+			);
+			path = Source_Language;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B6AD8B4E2A9B80AD00C3D386 /* Thirteen Cards */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B6AD8B5D2A9B80AF00C3D386 /* Build configuration list for PBXNativeTarget "Thirteen Cards" */;
+			buildPhases = (
+				B6AD8B4B2A9B80AD00C3D386 /* Sources */,
+				B6AD8B4C2A9B80AD00C3D386 /* Frameworks */,
+				B6AD8B4D2A9B80AD00C3D386 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Thirteen Cards";
+			productName = "Thirteen Card game";
+			productReference = B6AD8B4F2A9B80AD00C3D386 /* Thirteen Cards.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B6AD8B472A9B80AD00C3D386 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B6AD8B4E2A9B80AD00C3D386 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = B6AD8B4A2A9B80AD00C3D386 /* Build configuration list for PBXProject "Thirteen Cards" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				vi,
+				ja,
+				Base,
+			);
+			mainGroup = B6AD8B462A9B80AD00C3D386;
+			productRefGroup = B6AD8B502A9B80AD00C3D386 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6AD8B4E2A9B80AD00C3D386 /* Thirteen Cards */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B6AD8B4D2A9B80AD00C3D386 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B624EC5A2AA0570800AF71FA /* Divide_Card.mp3 in Resources */,
+				B6AD8B5A2A9B80AF00C3D386 /* Preview Assets.xcassets in Resources */,
+				B6D36F552A9C906F003D5B0E /* Account.json in Resources */,
+				B69348752A9E477100BEFF17 /* Localizable.strings in Resources */,
+				B6AD8B572A9B80AF00C3D386 /* Assets.xcassets in Resources */,
+				B6AB07EF2AA0B9E800C8EA52 /* RubikIso-Regular.ttf in Resources */,
+				B6AB07ED2AA0AE7F00C8EA52 /* winning.mp3 in Resources */,
+				B6AB07F92AA187F000C8EA52 /* Here_Forever.mp3 in Resources */,
+				B6AB07F72AA1853F00C8EA52 /* bet_card.mp3 in Resources */,
+				B6AB07F52AA0DCD100C8EA52 /* bet-chip.mp3 in Resources */,
+				B6AB07EB2AA0AE7600C8EA52 /* gameover.mp3 in Resources */,
+				B6AB07FB2AA1885400C8EA52 /* Robot_meme.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B6AD8B4B2A9B80AD00C3D386 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6D36F572A9C90FF003D5B0E /* ModelData.swift in Sources */,
+				B69348742A9E3B8900BEFF17 /* PlaySound.swift in Sources */,
+				B6AD8B772A9B9AAF00C3D386 /* BackgroundPage.swift in Sources */,
+				B6AD8B832A9BA82F00C3D386 /* UserDetails.swift in Sources */,
+				B6AD8B652A9B843800C3D386 /* Cards.swift in Sources */,
+				B6AD8B692A9B889B00C3D386 /* MemberPlayer.swift in Sources */,
+				B6AD8B812A9B9D9700C3D386 /* UserRow.swift in Sources */,
+				B6AD8B7B2A9B9C3300C3D386 /* ChampionView.swift in Sources */,
+				B6AD8B732A9B989200C3D386 /* MyMonneyLabel.swift in Sources */,
+				B6AD8B752A9B9A5100C3D386 /* BackgroundIcon.swift in Sources */,
+				B6D36F5D2A9CEAED003D5B0E /* Achievements.swift in Sources */,
+				B6AD8B792A9B9AFB00C3D386 /* CardPlayerView.swift in Sources */,
+				B6AD8B7F2A9B9C7900C3D386 /* SettingsView.swift in Sources */,
+				B6D36F592A9C912E003D5B0E /* Accounts.swift in Sources */,
+				B6AD8B712A9B970400C3D386 /* GameOver.swift in Sources */,
+				B6AD8B6B2A9B88F400C3D386 /* Modifier.swift in Sources */,
+				B6D36F5B2A9CA3D8003D5B0E /* ChampionSup.swift in Sources */,
+				B6AD8B672A9B848B00C3D386 /* TienLenGame.swift in Sources */,
+				B6AD8B552A9B80AD00C3D386 /* ContentView.swift in Sources */,
+				B6AD8B7D2A9B9C5800C3D386 /* HowToPlayView.swift in Sources */,
+				B6AD8B532A9B80AD00C3D386 /* Thirteen_CardsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B69348772A9E477100BEFF17 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B69348762A9E477100BEFF17 /* en */,
+				B69348782A9E477900BEFF17 /* ja */,
+				B69348792A9E477A00BEFF17 /* vi */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B6AD8B5B2A9B80AF00C3D386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B6AD8B5C2A9B80AF00C3D386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B6AD8B5E2A9B80AF00C3D386 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Thirteen Cards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thirteen-Cards-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rmit.edu.vn.Thirteen-Card-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B6AD8B5F2A9B80AF00C3D386 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Thirteen Cards/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Thirteen-Cards-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rmit.edu.vn.Thirteen-Card-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B6AD8B4A2A9B80AD00C3D386 /* Build configuration list for PBXProject "Thirteen Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AD8B5B2A9B80AF00C3D386 /* Debug */,
+				B6AD8B5C2A9B80AF00C3D386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B6AD8B5D2A9B80AF00C3D386 /* Build configuration list for PBXNativeTarget "Thirteen Cards" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B6AD8B5E2A9B80AF00C3D386 /* Debug */,
+				B6AD8B5F2A9B80AF00C3D386 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B6AD8B472A9B80AD00C3D386 /* Project object */;
+}
